@@ -1,7 +1,7 @@
 process artic {
     container 'staphb/artic:1.8.5'
     stageInMode 'copy'
-    tag "🦠🦠🦠 ARTIC — Stretching those amplicons 😏 (processing $sample) 🦠🦠🦠"
+    tag "🦠🦠🦠 ⌨️ GUPPYPLEX — cat *.fastq | grep "quality" | pray 🙏 (processing $sample) 🦠🦠🦠"
 
     publishDir "${params.outDir}/artic_consensus", mode: 'copy', pattern: '*.consensus.fasta'
     publishDir "${params.outDir}/artic_bam",       mode: 'copy', pattern: '*.primertrimmed.rg.sorted.bam*'
