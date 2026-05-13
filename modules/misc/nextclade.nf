@@ -1,6 +1,6 @@
 process nextclade {
     container 'nextstrain/nextclade:3.18.0'
-    tag "🧬🧬🧬 Nextclade — Judging mutations 🧬🧬🧬"
+    tag "🧬🧬🧬 Nextclade — assigning emotional damage to your mutations 🧬🧬🧬"
 
     publishDir "${params.outDir}/nextclade", mode: 'copy'
 
