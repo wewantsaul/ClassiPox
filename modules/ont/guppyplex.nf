@@ -1,6 +1,6 @@
 process guppyplex {
     container 'staphb/artic:1.8.5'
-    tag "🧹🧹🧹 ⌨️ GUPPYPLEX — cat *.fastq | grep "quality" | pray 🙏 (demultiplexing $sample) 🧹🧹🧹"
+    tag "🧹🧹🧹 ⌨️ GUPPYPLEX — cat *.fastq | grep \"quality\" | pray 🙏 (demultiplexing $sample) 🧹🧹🧹"
 
 
     // Publish merged FASTQ for downstream processes
