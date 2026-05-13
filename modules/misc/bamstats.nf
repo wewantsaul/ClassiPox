@@ -3,7 +3,7 @@ nextflow.enable.dsl = 2
 
 process bamstats {
     container 'wewantsaul/seqkit-pysam:latest' 
-    tag "📊📊📊 BAMstats — Size matters (coverage) 😌 📊📊📊"
+    tag "📊📊📊 BAMstats — depth so low even Kraken2 looks confident 😌 📊📊📊"
 
 
     publishDir "${params.outDir}/bamstats", mode: 'copy', overwrite: true
