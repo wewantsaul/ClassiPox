@@ -1,0 +1,11 @@
+name: seqkit_pysam
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - seqkit
+  - pysam
+  - matplotlib
+  - pandas

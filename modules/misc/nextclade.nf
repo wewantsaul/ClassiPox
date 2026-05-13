@@ -19,6 +19,7 @@ process nextclade {
 
     # Step 2: Download dataset (cached)
     nextclade dataset get --name hMPXV --output-dir dataset/
+    #  nextclade dataset get --name sars-cov-2 --output-dir dataset/
 
     # Step 3: Run nextclade on combined FASTA
     nextclade run \

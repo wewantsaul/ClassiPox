@@ -1,0 +1,8 @@
+name: lofreq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - lofreq=2.1.5
